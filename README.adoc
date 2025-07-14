@@ -1,4 +1,4 @@
-= TickeManorFlutter, a.k.a. ticket_manor_flutter
+= TicketManorFlutter, a.k.a. ticket_manor_flutter
 
 TicketManor client reimagined as a Flutter mobile app.
 
