@@ -1,3 +1,9 @@
-= ticket_manor_flutter
+= TickeManorFlutter, a.k.a. ticket_manor_flutter
 
-TicketManor as a Flutter mobile app.
+TicketManor client reimagined as a Flutter mobile app.
+
+This is intended to, and someday will, work with the TicketManor REST service at TicketManor.com.
+
+At present, that service is undergoing maintenance, and, at any rate, this code
+doesn't exactly line up with the REST outputs from there. At least it gets
+an empty list of Events from the server. To be continued...

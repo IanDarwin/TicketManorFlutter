@@ -1,4 +1,3 @@
-// lib/providers/cart_provider.dart
 import 'package:flutter/material.dart';
 import '../model/cart_item.dart';
 import '../model/event.dart';

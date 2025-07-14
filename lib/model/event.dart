@@ -23,9 +23,6 @@ class Event {
   });
 
   factory Event.fromJson(Map<String, dynamic> json) {
-    // This factory method will need to be intelligent to determine the concrete type
-    // or you can have separate factories for each event type and call them based on a 'type' field.
-    // For simplicity here, we'll assume a 'type' field is present and parse accordingly.
     EventType type;
     switch (json['type']) {
       case 'concert':

@@ -53,6 +53,4 @@ class ApiService {
       throw Exception('Failed to load event detail');
     }
   }
-
-  // You can add more methods here for filtering, searching, etc.
 }

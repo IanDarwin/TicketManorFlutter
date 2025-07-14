@@ -1,4 +1,3 @@
-// lib/providers/event_provider.dart
 import 'package:flutter/material.dart';
 import '../model/event.dart';
 import '../services/api_service.dart';

@@ -32,7 +32,7 @@ class CartScreen extends StatelessWidget {
                           child: Row(
                             children: [
                               Image.network(
-                                item.event.imageUrl ?? 'https://via.placeholder.com/60',
+                                item.event.imageUrl ?? 'https://ticketman.com/images/noimage.png',
                                 width: 60,
                                 height: 60,
                                 fit: BoxFit.cover,

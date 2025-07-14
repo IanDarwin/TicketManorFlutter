@@ -4,7 +4,7 @@ import 'act.dart';
 import 'event.dart';
 
 class Concert extends Event {
-  final Act artist; // Assuming a concert has an artist (Act)
+  final Act artist; // A concert has-a Act, should be a list?
 
   Concert({
     required String id,
