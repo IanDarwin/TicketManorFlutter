@@ -1,3 +1,7 @@
+import 'package:ticket_manor/model/venue.dart';
+
+import 'event.dart';
+
 class Movie extends Event {
   final String director;
   final List<String> mainStars;

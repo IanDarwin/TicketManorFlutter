@@ -1,3 +1,5 @@
+import 'event.dart';
+
 class CartItem {
   final Event event;
   int quantity;

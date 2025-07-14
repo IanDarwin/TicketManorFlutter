@@ -53,7 +53,7 @@ class CartScreen extends StatelessWidget {
                                     ),
                                     Text(
                                       'Subtotal: \$${(item.event.price * item.quantity).toStringAsFixed(2)}',
-                                      style: const TextStyle(fontSize: 14, color: Colors.grey[700]),
+                                      style:  TextStyle(fontSize: 14, color: Colors.grey[700]),
                                     ),
                                   ],
                                 ),

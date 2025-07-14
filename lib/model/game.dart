@@ -1,3 +1,7 @@
+import 'package:ticket_manor/model/venue.dart';
+
+import 'event.dart';
+
 enum Sport { baseball, hockey, basketball, soccer, football }
 
 class Game extends Event {

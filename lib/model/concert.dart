@@ -1,3 +1,8 @@
+import 'package:ticket_manor/model/venue.dart';
+
+import 'act.dart';
+import 'event.dart';
+
 class Concert extends Event {
   final Act artist; // Assuming a concert has an artist (Act)
 

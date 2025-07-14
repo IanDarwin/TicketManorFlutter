@@ -1,3 +1,5 @@
+import 'package:ticket_manor/model/venue.dart';
+
 enum EventType { concert, play, game, movie }
 
 // Base class for Concert, Play, Game, etc
