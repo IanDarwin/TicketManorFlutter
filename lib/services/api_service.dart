@@ -7,16 +7,13 @@ import '../model/game.dart';
 import '../model/movie.dart';
 
 class ApiService {
-  static const String _baseUrl = 'http://localhost:8080'; // Replace with your REST service URL
-
+  static const String _baseUrl = 'http://ticketmanor.com/rest';
   Future<List<Event>> fetchAllEvents() async {
-    final response = await http.get(Uri.parse('$_baseUrl/events')); // Assuming an /events endpoint
-
+    final response = await http.get(Uri.parse('$_baseUrl/events'));
     if (response.statusCode == 200) {
       List jsonResponse = json.decode(response.body);
       return jsonResponse.map((data) {
-        // This is where you'd dynamically create the correct event type
-        // based on a 'type' field from your REST service.
+        // Create the correct event type based on the 'type' field from REST call.
         switch (data['type']) {
           case 'concert':
             return Concert.fromJson(data);
